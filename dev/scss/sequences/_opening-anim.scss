@@ -1,0 +1,22 @@
+/* =============
+    opening-anim
+============= */
+#opening-anim{
+    background-color: $black;
+    display: grid;
+    grid-template-columns: auto 50% auto;
+    grid-template-areas: ". svg .";
+    grid-template-rows: 100vh;
+    >div{
+        background-color: $black;
+        grid-area: svg;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        svg{
+            width: 100%;
+        }
+    }
+
+}
