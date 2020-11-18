@@ -2,9 +2,10 @@ import {gsap} from "gsap";
 
 const openingLinesTL = gsap.timeline();
 
-openingLinesTL.from("#intro-line", {scaleX: 0});
 
 export function openingLinesAnimation(){
+    
+    openingLinesTL.from("#intro-line", {transformOrigin: "center", scaleX: 0, duration:.5});
 
     return openingLinesTL;
 
