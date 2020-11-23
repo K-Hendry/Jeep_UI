@@ -17,8 +17,9 @@ export function openingLinesAnimation(){
     .to("#line-base",{duration:.5, morphSVG:"#line-base"}, "+=0")
     .to("#line-base",{duration:.5, morphSVG:"#city-lines"}, "+=0")
     .to("#line-base",{duration:.5, morphSVG:"#line-base"}, "+=0")
-    .to("#line-base",{transformOrigin: "center", scaleX: 0, duration:.75})
-    .from("#jeep-logo", {transformOrigin: "center", scaleX: 0, duration:.75});
+    .to("#line-base",{transformOrigin: "center", scaleX: 0, duration:.5})
+    .from("#logo",{transformOrigin: "center", delay:0, scaleX: 0, duration:.5});
+    
 
     return openingLinesTL;
 }

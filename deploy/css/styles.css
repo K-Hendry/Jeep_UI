@@ -443,15 +443,25 @@ textarea {
 #opening-anim > div #city {
   visibility: hidden;
 }
-#opening-anim > div #jeep-logo {
-  visibility: display;
+
+/* =============
+    logo-reveal
+============= */
+#logo-reveal {
+  background-color: #121212;
+  display: grid;
+  grid-template-columns: auto 50% auto;
+  grid-template-areas: ". svg2 .";
+  grid-template-rows: 100vh;
 }
-#opening-anim > div #E {
-  visibility: hidden;
+#logo-reveal > div {
+  background-color: #121212;
+  grid-area: svg2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
 }
-#opening-anim > div #E2 {
-  visibility: hidden;
-}
-#opening-anim > div #P {
-  visibility: hidden;
+#logo-reveal > div svg {
+  width: 100%;
 }

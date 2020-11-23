@@ -1,15 +1,16 @@
 /* =============
-    opening-anim
+    logo-reveal
 ============= */
-#opening-anim{
+
+#logo-reveal{
     background-color: $black;
     display: grid;
     grid-template-columns: auto 50% auto;
-    grid-template-areas: ". svg .";
+    grid-template-areas: ". svg2 .";
     grid-template-rows: 100vh;
     >div{
         background-color: $black;
-        grid-area: svg;
+        grid-area: svg2;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -17,18 +18,18 @@
         svg{
             width: 100%;
         }
-        #mountains{
-            visibility: hidden;
-        }
-        #dunes{
-            visibility: hidden;
-        }
-        #waves{
-            visibility: hidden;
-        }
-        #city{
-            visibility: hidden;
-        }
+        // #jeep-logo{
+        //     visibility: hidden;
+        // }
+        // #E{
+        //     visibility: hidden;
+        // }
+        // #E2{
+        //     visibility: hidden;
+        // }
+        // #P{
+        //     visibility: hidden;
+        // }
     }
 
 }
