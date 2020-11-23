@@ -431,3 +431,27 @@ textarea {
 #opening-anim > div svg {
   width: 100%;
 }
+#opening-anim > div #mountains {
+  visibility: hidden;
+}
+#opening-anim > div #dunes {
+  visibility: hidden;
+}
+#opening-anim > div #waves {
+  visibility: hidden;
+}
+#opening-anim > div #city {
+  visibility: hidden;
+}
+#opening-anim > div #jeep-logo {
+  visibility: display;
+}
+#opening-anim > div #E {
+  visibility: hidden;
+}
+#opening-anim > div #E2 {
+  visibility: hidden;
+}
+#opening-anim > div #P {
+  visibility: hidden;
+}
