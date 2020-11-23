@@ -4,9 +4,10 @@
 #opening-anim{
     background-color: $black;
     display: grid;
-    grid-template-columns: auto 50% auto;
+    grid-template-columns: auto 100% auto;
     grid-template-areas: ". svg .";
-    grid-template-rows: 100vh;
+    //grid-template-rows: 100vh;
+    margin-left: 0;
     >div{
         background-color: $black;
         grid-area: svg;
@@ -19,14 +20,29 @@
         }
         #mountains{
             visibility: hidden;
+            display: flex;
+        justify-content: center;
+        align-items: center;
         }
         #dunes{
             visibility: hidden;
+            display: flex;
+        justify-content: center;
+        align-items: center;
         }
         #waves{
             visibility: hidden;
+            display: flex;
+        justify-content: center;
+        align-items: center;
         }
         #city{
+            visibility: hidden;
+            display: flex;
+        justify-content: center;
+        align-items: center;
+        }
+        #dash-outline{
             visibility: hidden;
         }
     }

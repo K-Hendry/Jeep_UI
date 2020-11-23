@@ -416,9 +416,9 @@ textarea {
 #opening-anim {
   background-color: #121212;
   display: grid;
-  grid-template-columns: auto 50% auto;
+  grid-template-columns: auto 100% auto;
   grid-template-areas: ". svg .";
-  grid-template-rows: 100vh;
+  margin-left: 0;
 }
 #opening-anim > div {
   background-color: #121212;
@@ -433,14 +433,29 @@ textarea {
 }
 #opening-anim > div #mountains {
   visibility: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 #opening-anim > div #dunes {
   visibility: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 #opening-anim > div #waves {
   visibility: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 #opening-anim > div #city {
+  visibility: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#opening-anim > div #dash-outline {
   visibility: hidden;
 }
 
