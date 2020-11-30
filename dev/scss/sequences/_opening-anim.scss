@@ -1,50 +1,46 @@
 /* =============
     opening-anim
 ============= */
-#opening-anim{
-    background-color: $black;
-    display: grid;
-    grid-template-columns: auto 100% auto;
-    grid-template-areas: ". svg .";
-    //grid-template-rows: 100vh;
-    margin-left: 0;
-    >div{
-        background-color: $black;
-        grid-area: svg;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        height: 100vh;
-        svg{
-            width: 100%;
-        }
-        #mountains{
-            visibility: hidden;
-            display: flex;
-        justify-content: center;
-        align-items: center;
-        }
-        #dunes{
-            visibility: hidden;
-            display: flex;
-        justify-content: center;
-        align-items: center;
-        }
-        #waves{
-            visibility: hidden;
-            display: flex;
-        justify-content: center;
-        align-items: center;
-        }
-        #city{
-            visibility: hidden;
-            display: flex;
-        justify-content: center;
-        align-items: center;
-        }
-        #dash-outline{
-            visibility: hidden;
-        }
-    }
+#opening-anim {
+	background-color: $black;
+	display: grid;
+	grid-template-areas: ". svg .";
+	grid-template-columns: auto 100% auto;
+	margin-left: 0;
 
+	>div {
+		align-items: center;
+		background-color: $black;
+		display: flex;
+		grid-area: svg;
+		height: 100vh;
+		justify-content: center;
+		position: fixed;
+		width: 100%;
+
+		svg {
+			width: 100%;
+				}
+
+		#mountains {
+			visibility: hidden;
+		}
+
+		#dunes {
+			visibility: hidden;
+		}
+
+		#waves {
+			visibility: hidden;
+		}
+
+		#city {
+
+			visibility: hidden;
+		}
+
+		#dash-outline {
+			visibility: hidden;
+		}
+	}
 }
