@@ -450,23 +450,21 @@ textarea {
 }
 
 /* =============
-    logo-reveal
+    Dash Content
 ============= */
-#logo-reveal {
+#dashboard-animation {
   background-color: #121212;
-  display: grid;
-  grid-template-columns: auto 50% auto;
-  grid-template-areas: ". svg2 .";
-  grid-template-rows: 100vh;
 }
-#logo-reveal > div {
-  background-color: #121212;
-  grid-area: svg2;
-  display: flex;
-  justify-content: center;
+#dashboard-animation > div {
+  padding-left: 20vw;
   align-items: center;
+  background-color: #121212;
+  display: flex;
   height: 100vh;
+  justify-content: center;
+  position: fixed;
+  width: 100%;
 }
-#logo-reveal > div svg {
+#dashboard-animation > div svg {
   width: 100%;
 }
