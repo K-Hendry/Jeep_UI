@@ -463,6 +463,8 @@ textarea {
   justify-content: center;
   position: fixed;
   width: 100%;
+  margin-left: -15vw;
+  padding-right: 15vw;
 }
 #dashboard-animation > div svg {
   width: 100%;
@@ -476,15 +478,22 @@ textarea {
 #dashboard-animation > div #waves {
   visibility: hidden;
 }
-#dashboard-animation > div #radio-info {
-  visibility: hidden;
-}
-#dashboard-animation > div #tread {
-  visibility: hidden;
-}
 #dashboard-animation > div #liquid {
   z-index: 5;
+  overflow: hidden;
 }
 #dashboard-animation > div #gas-outline2 {
   z-index: 10;
+}
+#dashboard-animation > div #city-lines {
+  visibility: hidden;
+}
+#dashboard-animation > div #waves-line {
+  visibility: hidden;
+}
+#dashboard-animation > div #dunes-line {
+  visibility: hidden;
+}
+#dashboard-animation > div #mountains-line {
+  visibility: hidden;
 }

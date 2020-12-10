@@ -13,7 +13,8 @@
 		justify-content: center;
 		position: fixed;
 		width: 100%;
-
+		margin-left: -15vw;
+padding-right: 15vw;
 		svg {
 			width: 100%;
 			
@@ -29,19 +30,39 @@
 				#waves {
 					visibility: hidden;
 				}
-				#radio-info{
-					visibility: hidden;
-				}
-				#tread{
-					visibility: hidden;
-				}
 				#liquid{
 					z-index: 5;
+					overflow: hidden;
 				}
 				#gas-outline2{
 					z-index: 10;
 
 				}
+				#city-lines{
+					visibility: hidden;
+				}
+				#waves-line{
+					visibility: hidden;
+				}
+				#dunes-line{
+					visibility: hidden;
+				}
+				#mountains-line{
+					visibility: hidden;
+				}
+				#SURF{
+					//visibility: hidden;
+				}
+				#CITY-WORD{
+					//visibility: hidden;
+				}
+				#SAND{
+					//visibility: hidden;
+				}
+				#STEEP{
+					//visibility: hidden;
+				}
+
 	}
 	
 
