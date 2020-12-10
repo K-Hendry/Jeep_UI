@@ -5,7 +5,7 @@
 #dashboard-animation{
     background-color: $black;
 	>div {
-		padding-left: 20vw;
+		//padding-left: 20vw;
 		align-items: center;
 		background-color: $black;
 		display: flex;
@@ -16,9 +16,33 @@
 
 		svg {
 			width: 100%;
+			
 				}
-		#mountains{
-			//display: hidden;
-		}
+				#mountains {
+					visibility: hidden;
+				}
+		
+				#dunes {
+					visibility: hidden;
+				}
+		
+				#waves {
+					visibility: hidden;
+				}
+				#radio-info{
+					visibility: hidden;
+				}
+				#tread{
+					visibility: hidden;
+				}
+				#liquid{
+					z-index: 5;
+				}
+				#gas-outline2{
+					z-index: 10;
+
+				}
 	}
+	
+
 }

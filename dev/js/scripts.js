@@ -6,14 +6,15 @@ import { MorphSVGPlugin } from "gsap/MorphSVGPlugin";
 gsap.registerPlugin(DrawSVGPlugin, GSDevTools, MorphSVGPlugin);
 
 import {openingLinesAnimation} from "./openingAnim/openingAnim.js";
-import {logoRevealAnimation} from "./openingAnim/logoReveal.js";
+import {dashActivityAnimation} from "./openingAnim/dashActivity.js";
 import {dashOutlineAnimation} from "./openingAnim/dashOutline.js";
 
 const mainTL = gsap.timeline()
 
 mainTL.add(openingLinesAnimation());
-mainTL.add(logoRevealAnimation());
 mainTL.add(dashOutlineAnimation());
+mainTL.add(dashActivityAnimation());
+
 
 
 //instantiate GSDevTools with default settings

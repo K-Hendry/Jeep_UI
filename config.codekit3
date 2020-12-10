@@ -78,6 +78,17 @@
 		"oAP": "/deploy/index.html",
 		"oF": 2
 		},
+	"/dev/js/openingAnim/dashActivity.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "/dev/js/openingAnim/dashActivity-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
 	"/dev/js/openingAnim/dashOutline.js": {
 		"bF": 0,
 		"ft": 64,
@@ -85,17 +96,6 @@
 		"mi": 1,
 		"oA": 1,
 		"oAP": "/dev/js/openingAnim/dashOutline-min.js",
-		"oF": 0,
-		"sC": 3,
-		"tS": 0
-		},
-	"/dev/js/openingAnim/logoReveal.js": {
-		"bF": 0,
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 1,
-		"oAP": "/dev/js/openingAnim/logoReveal-min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 0

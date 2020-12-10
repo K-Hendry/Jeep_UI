@@ -433,16 +433,16 @@ textarea {
 #opening-anim > div svg {
   width: 100%;
 }
-#opening-anim > div #mountains {
+#opening-anim > div #mountains-line {
   visibility: hidden;
 }
-#opening-anim > div #dunes {
+#opening-anim > div #dunes-line {
   visibility: hidden;
 }
-#opening-anim > div #waves {
+#opening-anim > div #waves-line {
   visibility: hidden;
 }
-#opening-anim > div #city {
+#opening-anim > div #city-lines {
   visibility: hidden;
 }
 #opening-anim > div #dash-outline {
@@ -456,7 +456,6 @@ textarea {
   background-color: #121212;
 }
 #dashboard-animation > div {
-  padding-left: 20vw;
   align-items: center;
   background-color: #121212;
   display: flex;
@@ -467,4 +466,25 @@ textarea {
 }
 #dashboard-animation > div svg {
   width: 100%;
+}
+#dashboard-animation > div #mountains {
+  visibility: hidden;
+}
+#dashboard-animation > div #dunes {
+  visibility: hidden;
+}
+#dashboard-animation > div #waves {
+  visibility: hidden;
+}
+#dashboard-animation > div #radio-info {
+  visibility: hidden;
+}
+#dashboard-animation > div #tread {
+  visibility: hidden;
+}
+#dashboard-animation > div #liquid {
+  z-index: 5;
+}
+#dashboard-animation > div #gas-outline2 {
+  z-index: 10;
 }
